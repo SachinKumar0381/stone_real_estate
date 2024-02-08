@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stone_real_estate/static/css/main.dc4453ee.css",
-    "main.js": "/stone_real_estate/static/js/main.ac17589a.js",
+    "main.css": "/stone_real_estate/static/css/main.28f0d3e4.css",
+    "main.js": "/stone_real_estate/static/js/main.19d7b39e.js",
     "static/js/592.6058345b.chunk.js": "/stone_real_estate/static/js/592.6058345b.chunk.js",
     "static/media/footer-bg.jpg": "/stone_real_estate/static/media/footer-bg.8cb839bc153f5aab675f.jpg",
     "static/media/1.jpg": "/stone_real_estate/static/media/1.8fbfa73b603a5666f625.jpg",
@@ -42,12 +42,12 @@
     "static/media/ui-icons_777620_256x240.html": "/stone_real_estate/static/media/ui-icons_777620_256x240.327f7739cc114284c2fc.html",
     "static/media/ui-icons_777777_256x240.html": "/stone_real_estate/static/media/ui-icons_777777_256x240.327f7739cc114284c2fc.html",
     "static/media/ui-icons_cc0000_256x240.html": "/stone_real_estate/static/media/ui-icons_cc0000_256x240.327f7739cc114284c2fc.html",
-    "main.dc4453ee.css.map": "/stone_real_estate/static/css/main.dc4453ee.css.map",
-    "main.ac17589a.js.map": "/stone_real_estate/static/js/main.ac17589a.js.map",
+    "main.28f0d3e4.css.map": "/stone_real_estate/static/css/main.28f0d3e4.css.map",
+    "main.19d7b39e.js.map": "/stone_real_estate/static/js/main.19d7b39e.js.map",
     "592.6058345b.chunk.js.map": "/stone_real_estate/static/js/592.6058345b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc4453ee.css",
-    "static/js/main.ac17589a.js"
+    "static/css/main.28f0d3e4.css",
+    "static/js/main.19d7b39e.js"
   ]
 }
