@@ -1,17 +1,18 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-const ImageSlider = ({images}) => {
+const ImageSlider = ({images,fade,lazyLoad}) => {
     const settings = {
         dots: false,
         infinite: true,
-        fade: true,
+        fade:fade?fade:false,
         speed: 2000,
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: false,
         pauseOnFocus: false,
         arrows: false,
+        lazyLoad:lazyLoad?lazyLoad:false,
       };
     
       return (

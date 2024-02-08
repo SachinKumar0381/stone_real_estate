@@ -144,6 +144,7 @@
 	font-weight: 400;
 	color: var(--white-color);
 	text-transform: capitalize;
+	height: 140px;
 }
 
 .slider-one_text{

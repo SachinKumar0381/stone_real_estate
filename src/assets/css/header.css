@@ -128,6 +128,7 @@
 
 .main-header .header-upper .inner-container{
 	position: relative;
+	margin-top: 5px;
 }
 
 .main-header .main-box{
@@ -209,8 +210,11 @@
 	margin-top: 0px;
 }
 
-.main-header .header-upper .logo-box .logo{
-	position:relative;
+@media only screen and (max-width: 768px){
+	.main-header .header-upper .logo-box .logo{
+		position: relative;
+		margin-top: -85px;
+	}
 }
 
 .main-header .main-menu .navigation > li:nth-child(7) > ul,

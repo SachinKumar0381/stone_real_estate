@@ -11,9 +11,16 @@ import welcome_01 from "../assets/images/main-slider/img_02.webp";
 import service_01 from "../assets/images/icons/service-1.svg";
 import service_02 from "../assets/images/icons/service-2.svg";
 import service_03 from "../assets/images/icons/service-3.svg";
+import ImageSlider from './ImageSlider';
+
+import img_01 from "../assets/images/main-slider/img_01.webp";
+import img_02 from "../assets/images/main-slider/img_02.webp";
+import img_03 from "../assets/images/main-slider/img_03.webp";
+import img_04 from "../assets/images/main-slider/img_04.webp";
 // import service_04 from "../assets/images/icons/service-4.svg";
 
 const About = () => {
+	const images = [img_01,img_02,img_03,img_04];
   return (
     <section className="welcome-one">
 		<div className="welcome-one_circle"></div>
@@ -37,7 +44,8 @@ const About = () => {
 						
 							{/* <div className="column col-lg-6 col-md-12 col-sm-12"> */}
 								<div className="welcome-one_image">
-									<img src={welcome_01} alt="" style={{width:"100%"}} />
+									{/* <img src={welcome_01} alt="" style={{width:"100%"}} /> */}
+									<ImageSlider images={images} lazyLoad={true}/>
 								</div>
 							{/* </div> */}
 						</div>

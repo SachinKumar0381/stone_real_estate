@@ -46,7 +46,7 @@ const Slider = () => {
 									</div>
 								</div>
 								<div className="column col-lg-9 col-md-12 col-sm-12" style={{maxHeight:"500px"}}>
-									<ImageSlider images={images}/>
+									<ImageSlider images={images} fade={true}/>
 									</div>
 							</div>
 						</div>
